@@ -91,7 +91,7 @@ void OnChangeVelocity(DebrisTweaksViewController* self, float newval)
     }
     if (newval > 3 - element->Increment)
     {
-        incrButton->set_interactable(false);
+        incrButton->set_interactable(true);
     }
     modcfg["velocityMultiplier"].SetFloat(newval);
 }
