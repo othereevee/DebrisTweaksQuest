@@ -87,7 +87,7 @@ void OnChangeVelocity(DebrisTweaksViewController* self, float newval)
     incrButton->set_interactable(true);
     if (newval < element->Increment)
     {
-        decrButton->set_interactable(false);
+        decrButton->set_interactable(true);
     }
     if (newval > 3 - element->Increment)
     {
